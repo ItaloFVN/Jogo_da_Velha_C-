@@ -1,0 +1,53 @@
+#jogo{
+    width:603px;
+    height:600px;
+    border:solid 3px;
+    margin: 0 auto;
+}
+.modal{
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+#jogos{
+    background-color: white;
+    color: black;
+    opacity: 1.4;
+}
+.informacoes{
+    margin: 0 auto;
+    width: 50%;
+}
+.conteudo{
+    width: 100%;
+    height: 100%;
+}
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+}
+
+#jogosModal{
+    z-index: 1;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(61, 38, 38); /* Black w/ opacity */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+

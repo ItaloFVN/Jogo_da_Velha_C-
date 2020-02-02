@@ -1,0 +1,16 @@
+<div id="jogosModal">
+    <div id="jogos">
+        <table>
+            <thead>
+                <tr>
+                    <th>Jogos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="jogo in jogos">
+                    <td ng-click='recebeArquivo($event)'>{{jogo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

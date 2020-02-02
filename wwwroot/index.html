@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html lang="en" ng-app="app"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylesheets/estilo.css" />
+    </head>
+    <body ng-controller="controller">
+        <section class="conteudo">
+            <div id="jogo">
+                <hash-Tag></hash-Tag>
+            </div>
+            <div class="informacoes">
+                <info></info>
+            </div>
+            <div ng-if="exibirResultado">
+                <h1>{{resultado}}</h1>
+            </div>
+        </section>
+        <section class="modal" ng-if="mostraModal()" ng-init="buscaCodigoJogos()">        
+                <modal></modal>
+        </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script type="text/javascript" src="javascripts/ControllerReal.js"></script>
+    </body>
+</html>
